@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="headder">
+      <div class="headder__nav">
+        <div class="logo"><img src="imgs/logo.png" alt="logo" /></div>
+        <nav class="nav">
+          <ul>
+            <li><a class="about">About</a></li>
+            <li><a class="skills">Skills</a></li>
+            <li><a class="education">Education</a></li>
+            <li><a class="team">Team</a></li>
+          </ul>
+        </nav>
+        <div class="menu__toggle">
+          <i class="fas fa-outdent"></i>
+          <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+        </div>
+      </div>
+    </header>
+    <div class="header">
+      <div class="container clearfix">
+        <img
+          class="profile-image img-fluid float__left rounded_circle"
+          src="imgs/ankit.jfif"
+          alt="profile image"
+        />
+        <div class="profile-content float__left">
+          <h1 class="name">Ankit Bisen</h1>
+          <h2 class="desc">Front End Web Developer</h2>
+          <ul class="social list-inline">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/ninhydrin_b?s=09"
+                ><i class="fab fa-twitter fa-2x"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/ankit-bisen-13a55a1a7"
+                ><i class="fab fa-linkedin-in fa-2x"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://instagram.com/ankit_bisen893?utm_medium=copy_link"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/ninhydrinb"
+                ><i class="fab fa-github-alt fa-2x"></i
+              ></a>
+            </li>
+            <li class="list-inline-item last-item">
+              <a href="https://www.facebook.com/ankitbisen.bisen.7"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!--//profile-->
+        <a
+          class="btn btn-cta-primary float_right"
+          href="mailto: david.cladera@gmail.com"
+          target="_blank"
+          ><i class="fab fa-discord"></i> Join Discord</a
+        >
+      </div>
+      <!--//container-->
+    </div>
+    <section class="about__me" id="about__me">
+      <div class="div__inner">
+        <div class="about__inner">
+          <div class="info">
+            <h2 class="section__heading">About Me</h2>
+            <p>
+              <span
+                >Hi! My Name is Ankit Bisen and I am an Front End Web Developer.
+                I am recently pursuing Electronics Engineering from
+                <a href="http://www.satiengg.in" class="p__link"
+                  >Samrat Ashok Technological Institution.</a
+                ></span
+              ><br /><br />
+              For last 2 years, I have been very attracted towards programming
+              and Web Development.So I started learning basics of Front end web
+              devlopment.<br /><br />
+              I have decided to build my career as a web developer.As I have not
+              yet had the opportunity to prove my worth in a professional
+              programming environment, it is difficult to assess my experience,
+              but I know that I can contribute my experience by having worked on
+              projects (web development related), and understand the process and
+              operation of the concept of teamwork, with common and individual
+              tasks to arrive at a final and quality project.I have learned
+              <span class="p__link"
+                >Html,Css, Bootstrap ,Javascript(advanced)</span
+              >
+              and <span class="p__link">C++</span>.Recently I started learning
+              Object oriented programming.
+              <a href="#" class="p__link">My CV</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skill__section">
+      <div class="div__skill">
+        <div class="div__inner">
+          <h2 class="section__heading">Skills</h2>
+          <div class="skill__info">
+            <h3>01.Html</h3>
+            <h3>02.Css</h3>
+            <h3>03.Bootstrap</h3>
+            <h3>04.Javascript</h3>
+            <h3>05.C++ & Oops</h3>
+            <h3>06.Data Structures and Algorithm</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="div_projects">
+        <div class="div__inner">
+          <h2 class="section__heading">Projects</h2>
+          <div class="contents">
+            <div class="project1">
+              <div class="project_img">
+                <img src="imgs/project1.png" alt="project1" />
+              </div>
+              <div class="prev">
+                <h3>Project 1 (Guess the number)</h3>
+                <p>
+                  This is guess the number Game .In this game you have to guess
+                  a number until you get the right one. You have only 20 Chances
+                  to guess the number correct.Every wrong guess will deduct your
+                  score to -1.
+                </p>
+                <p class="view">
+                  View in Github
+                  <a
+                    href="https://ninhydrinb.github.io/Guess_the_number/"
+                    class="get"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+            <div class="project1">
+              <div class="project_img">
+                <img src="imgs/project2.png" alt="project2" />
+              </div>
+              <div class="prev">
+                <h3>Project 2 (LGMVIP Website)</h3>
+                <p>
+                  This is the sample website I have created for just practice.
+                </p>
+                <p class="view">
+                  View in Github
+                  <a href="https://lgmvip.netlify.app/" class="get"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+            <div class="project1">
+              <div class="project_img">
+                <img src="imgs/project3.png" alt="project3" />
+              </div>
+              <div class="prev">
+                <h3>Project 3 (Dice game)</h3>
+                <p>
+                  It is a two player game , in which player rolls dice and get
+                  any number from 1 and 6.When a player rolls dice and gets a
+                  number then its current score increases but as player click
+                  HOLD in order to give chance to the other player, his current
+                  score adds up in his main score. Whoever among the both
+                  players first reaches 💯 wins the game. The thing that make
+                  this game more interesting is,if you want got 1 in dice then
+                  your current score get zero aand your chance is passed to the
+                  other player.
+                </p>
+                <p class="view">
+                  View in Github
+                  <a href="https://ninhydrinb.github.io/Pig_game/" class="get"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course">
+      <div class="course__section">
+        <div class="course__inner">
+          <div class="course__col">
+            <div class="inner__col">
+              <h2 class="lang__title">Education</h2>
+              <div>
+                <div class="ct">
+                  <p>
+                    <i class="fas fa-graduation-cap"></i> Web Developer Bootcamp
+                    by Colt Steel.
+                  </p>
+                  <h6>Udemy (2019-2020)</h6>
+                </div>
+                <div class="ct">
+                  <p>
+                    <i class="fas fa-graduation-cap"></i> Javscript by Jonas
+                    Schmedtmann.
+                  </p>
+                  <h6>Udemy (2020-2021)</h6>
+                </div>
+                <div class="ct">
+                  <p>
+                    <i class="fas fa-graduation-cap"></i> C++ and Oops by Code
+                    with harry.
+                  </p>
+                  <h6>Youtube</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="course__col marg__top">
+            <div class="inner__col">
+              <h2 class="lang__title">Language</h2>
+              <div>
+                <div class="ct1">
+                  <p>Hindi (Fluent)</p>
+                </div>
+                <div class="ct1">
+                  <p>English (Medium)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team__section">
+      <div class="section__inner">
+        <div class="tmms">
+          <div class="section__title section__title--testimonials">
+            <h2 class="section__heading haed">Team</h2>
+          </div>
+
+          <div class="slider">
+            <div class="slide slider--1">
+              <div class="testimonial">
+                <h5 class="testimonial__header">Front End Web Developer</h5>
+                <p class="testimonial__text">
+                  He is a Front end Web developer and Recently pursuing
+                  Electronics Engineering from Madhav Institute Of technology
+                  and science.He has learned Html,Css ,Bootstrap,
+                  Javascript(advanced) and Reactjs.
+                </p>
+                <address class="testimonial__author">
+                  <img
+                    src="imgs/rigved.png"
+                    alt="rigved_shirvastav"
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Rigved Shiravastava</h6>
+                  <p class="testimonial__location">Gwalior, India</p>
+                  <p class="testimonial__location"></p>
+
+                  <div class="shrt">
+                    <a
+                      href="https://instagram.com/rigved_shrivastava?utm_medium=copy_link"
+                      ><i class="fab fa-instagram fa-2x"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/rigved-shrivastava-7055671a5"
+                      ><i class="fab fa-linkedin-in fa-2x"></i
+                    ></a>
+                    <a href="https://github.com/Rigved29"><i class="fab fa-github-alt fa-2x"></i></a>
+                  </div>
+                </address>
+              </div>
+            </div>
+            <div class="slide slide--2">
+              <div class="testimonial">
+                <h5 class="testimonial__header">Front End Web developer</h5>
+                <p class="testimonial__text">
+                  He is Front end Web developer and Recently pursuing Automobile
+                  Engineering from Rustamji Institute of Technology.He is
+                  learned Html,Css ,Bootstrap, Javascript(advanced) and Reactjs.
+                  Also some knowledge about stocks market and business
+                  management.
+                </p>
+                <address class="testimonial__author">
+                  <img
+                    src="imgs/ashu.png"
+                    alt="ashutosh_jain"
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Ashutosh Jain</h6>
+                  <p class="testimonial__location">Gwalior, India</p>
+                  <p class="testimonial__location"></p>
+                  <div class="shrt">
+                    <a
+                      href="https://instagram.com/jainashutosh14?utm_medium=copy_link"
+                    >
+                      <i class="fab fa-instagram fa-2x"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/ashutosh-jain-b1361b1b4"
+                      ><i class="fab fa-linkedin-in fa-2x"></i
+                    ></a>
+                    <a href="#"><i class="fab fa-github-alt fa-2x"></i></a>
+                  </div>
+                </address>
+              </div>
+            </div>
+
+            <div class="slide slide--3">
+              <div class="testimonial">
+                <h5 class="testimonial__header">Computer Science Engineer.</h5>
+                <p class="testimonial__text">
+                  He is pursuing Computer science Engineering from Samrat Ashok
+                  Technological Institution. He has learned C++(OOps),python,
+                  Data Science.
+                </p>
+
+                <address class="testimonial__author">
+                  <img
+                    src="imgs/himanshu.png"
+                    alt="himanshu_chouhan"
+                    class="testimonial__photo"
+                  />
+                  <h6 class="testimonial__name">Himanshu Singh Chouhan</h6>
+                  <p class="testimonial__location">Jabalpur, India</p>
+                  <p class="testimonial__location"></p>
+                  <div class="shrt">
+                    <a href="https://instagram.com/himanshusingh44u?utm_medium=copy_link"
+                      ><i class="fab fa-instagram fa-2x"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/himanshu-singh-chauhan-74b9801a3"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005037826519"><i class="fab fa-facebook fa-2x"></i></a>
+                  </div>
+                </address>
+              </div>
+            </div>
+
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mail">
+      <div class="mail__div">
+        <div class="mail__inner">
+          <div class="hmt">
+            <div class="txt">
+              <span class="g">G</span><span class="m">m</span
+              ><span class="a">a</span><span class="i">i</span
+              ><span class="l">l</span>
+            </div>
+            <div class="mail-icon">
+              <a
+                href="mailto:ankitbisen751@gmail.com"
+                ><i class="far fa-envelope fa-3x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="inner__footer">
+        <div class="fttr">
+          <p>
+            <i class="far fa-copyright"></i> Copyright 2019-2025,Ninhydrin
+            Project | Made By
+            <a href="https://www.linkedin.com/in/ankit-bisen-13a55a1a7"
+              >Ankit Bisen <i class="fas fa-external-link-alt"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
